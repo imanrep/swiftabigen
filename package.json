@@ -1,0 +1,10 @@
+{
+  "name": "swiftabigen",
+  "version": "1.0.0",
+  "description": "Convert EVM Contract ABI from json to swift file",
+  "author": "imanrep",
+  "license": "ISC",
+  "bin": {
+      "swiftabi": "./start.js"
+  }
+}
