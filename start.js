@@ -258,6 +258,9 @@ function start() {
   }
   var raw = fs.readFileSync(`${name[0]}.json`);
   var abi = JSON.parse(raw);
+  if (abi["abi"]) {
+    abi = abi["abi"]
+  }
 
   const totalFunction = []
   const totalPublicFunction = []
